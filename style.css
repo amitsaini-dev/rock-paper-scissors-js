@@ -2,36 +2,30 @@
     margin: 0;
     padding: 0;
     background-color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #E0FFFF;
 }
-
 h1 {
     text-align: center;
     margin: 2.5rem;
     color: #00FFFF;
     text-shadow: 0 0 3px #00ffff;
 }
-
 .heading {
     display: flex;
     justify-content: space-around;
     list-style: none;
     color: #FFD700;
 }
-
 .inputs {
     text-align: center;
     margin: 0.5rem;
     color: #7FFFD4
 }
-
 .user-choices {
     display: flex;
     justify-content: space-evenly;
     margin-top: 10rem;
 }
-
 .buttons {
     padding: 0.6rem 1.2rem;
     border: 2px solid #00FFFF;
@@ -42,15 +36,23 @@ h1 {
     cursor: pointer;
     transition: all 0.3s ease;
 }
-
 .buttons:hover {
     background-color: #00FFFF;
     color: black;
     box-shadow: 0 0 10px #00FFFF;
 }
-
 .game-status {
     margin-top: 1rem;
     font-weight: lighter;
     color: #FF69B4;
+}
+.reset {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: #FF69B4;
+    color: black;
+    padding: 0.3rem 0.6rem;
+    border-radius: 5px;
+    cursor: pointer;
 }
