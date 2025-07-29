@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: aqua;
+}
+
+h1 {
+    text-align: center;
+    margin: 2.5rem;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.inputs {
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.user-choices {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10rem;
+}
+
+.buttons {
+    padding: 0.3rem;
+    border: 2px solid aqua;
+    border-radius: 30%;
+    font-size: larger;
+}
+
+.buttons:hover {
+    background-color: aqua;
+    color: black;
+}
