@@ -2,23 +2,28 @@
     margin: 0;
     padding: 0;
     background-color: black;
-    color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #E0FFFF;
 }
 
 h1 {
     text-align: center;
     margin: 2.5rem;
+    color: #00FFFF;
+    text-shadow: 0 0 3px #00ffff;
 }
 
 .heading {
     display: flex;
     justify-content: space-around;
     list-style: none;
+    color: #FFD700;
 }
 
 .inputs {
     text-align: center;
     margin: 0.5rem;
+    color: #7FFFD4
 }
 
 .user-choices {
@@ -28,13 +33,24 @@ h1 {
 }
 
 .buttons {
-    padding: 0.3rem;
-    border: 2px solid aqua;
+    padding: 0.6rem 1.2rem;
+    border: 2px solid #00FFFF;
     border-radius: 30%;
-    font-size: larger;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: #00FFFF;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .buttons:hover {
-    background-color: aqua;
+    background-color: #00FFFF;
     color: black;
+    box-shadow: 0 0 10px #00FFFF;
+}
+
+.game-status {
+    margin-top: 1rem;
+    font-weight: lighter;
+    color: #FF69B4;
 }
